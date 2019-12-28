@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
 });
 
-let sl = document.getElementById("text");
+const sl = document.getElementById("text");
 sl.textContent = "This is really cool!"
 
 
